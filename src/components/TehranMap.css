@@ -1,0 +1,37 @@
+@font-face {
+  font-family: hamrah;
+  src: url(../fonts/Hamrah.woff2);
+}
+
+* {
+  font-family: hamrah;
+  background-color: #fff;
+}
+
+.main {
+  width: 60vw;
+  margin-inline: auto;
+  padding: 3rem;
+}
+
+.cls-1 {
+  fill: #c5c5c5;
+}
+.cls-2 {
+  fill: #b6b6b6;
+}
+.cls-3 {
+  fill: #a6a6a6;
+}
+.cls-4 {
+  fill: #b8b8b8;
+}
+.cls-5 {
+  fill: #acacac;
+}
+
+polygon:hover,
+rect:hover {
+  fill: #ffa600;
+  cursor: pointer;
+}
