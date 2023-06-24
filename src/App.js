@@ -1,8 +1,14 @@
 import "./App.css";
 import TehranMap from "./components/TehranMap";
+import Header from "./Header";
 
 function App() {
-  return <TehranMap />;
+  return (
+    <>
+      <Header />
+      <TehranMap />;
+    </>
+  );
 }
 
 export default App;

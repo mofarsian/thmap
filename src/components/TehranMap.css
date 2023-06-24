@@ -3,9 +3,12 @@
   src: url(../fonts/Hamrah.woff2);
 }
 
+#root {
+  background-color: #c5c5c5;
+}
+
 * {
   font-family: hamrah;
-  background-color: #fff;
 }
 
 .main {
@@ -14,24 +17,60 @@
   padding: 3rem;
 }
 
-.cls-1 {
+.cls-1,
+.cls-6 {
   fill: #c5c5c5;
 }
-.cls-2 {
+
+.cls-2,
+.cls-3 {
+  fill: none;
+}
+
+.cls-2,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+  stroke: #000;
+  stroke-width: 5px;
+}
+
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cls-3 {
+  stroke: #fff;
+  stroke-width: 20px;
+}
+
+.cls-4 {
   fill: #b6b6b6;
 }
-.cls-3 {
+
+.cls-5 {
   fill: #a6a6a6;
 }
-.cls-4 {
+
+.cls-7 {
   fill: #b8b8b8;
 }
-.cls-5 {
+
+.cls-8 {
   fill: #acacac;
 }
 
 polygon:hover,
 rect:hover {
-  fill: #ffa600;
+  fill: #bbff00;
   cursor: pointer;
 }
